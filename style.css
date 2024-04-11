@@ -50,7 +50,7 @@ body {
 
 .white {
   position: relative;
-  height: 11rem;
+  height: 12rem;
   width: 3rem;
   background-color: white;
   border: 1px solid black;
@@ -62,7 +62,10 @@ body {
   height: 7rem;
   width: 2rem;
   background-color: black;
-  left: 70%;
+  /* left: 70%; */
+
+  transform: translateX(100%);
+
   z-index: 1;
   border-radius: 0 0 4px 4px;
 }
