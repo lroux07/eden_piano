@@ -62,7 +62,6 @@ body {
   height: 7rem;
   width: 2rem;
   background-color: black;
-  /* left: 70%; */
 
   transform: translateX(100%);
 
@@ -71,11 +70,11 @@ body {
 }
 
 .white-active {
-  background-color: rgb(146, 146, 146);
-  box-shadow: 0px 0px 50px 28px rgba(146, 146, 146, 0.285);
+  background-color: rgb(0, 121, 190);
+  box-shadow: 0px 0px 50px 8px rgba(0, 121, 190, 0.285);
 }
 
 .black-active {
-  background-color: rgba(146, 146, 146, 0.325);
-  box-shadow: 0px 0px 50px 28px rgba(146, 146, 146, 0.325);
+  background-color: rgb(0, 78, 124);
+  box-shadow: 0px 0px 50px 8px rgba(0, 78, 124, 0.285);
 }
