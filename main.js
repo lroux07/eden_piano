@@ -27,9 +27,22 @@ for(let i = 0; i < octaves_count; i++) {
     white.className = 'white';
     container.appendChild(white);
 }
+white = document.createElement('div');
+white.className = 'white';
+container.appendChild(white);
 
 
 // Mapping
+
+let obj = {}
+
+let idNumber = 1;
+
+for (let i = 0; i < container.children.length; i++) {
+    container.children[i].id = 'objId' + `${idNumber}`;
+    idNumber ++;
+}
+
 
 let isMapping = false;
 
@@ -37,15 +50,7 @@ mappingBtn.addEventListener('click', () => {
     mappingBtn.disabled = true;
     isMapping = true;
 
-    // for (let i = 0; i < container.children.length; i++) {
-    //     container.children[i].classList.toggle('white-active');
-
-    //     black = document.querySelectorAll('.black');
-
-    //     for (let j = 0; j < black.length; j++){
-    //         black[j].classList.add("black-active");
-    //     }
-    // }
+    container.children[0].classList.toggle('white-active');
 });
 
 
